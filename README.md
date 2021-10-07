@@ -33,7 +33,7 @@ Graph Neural Networks (GNNs) learn low dimensional representations of nodes by a
 [LnL-GNN](Limitations.png?raw=true "Title")
 Two weaknesses of classic GNNs: i) incompetent to distinguish between relevant (enclosed by green boundary) and irrelevant nodes in l-hop local-neighborhood; ii) less effective in capturing feature information from distant but similar nodes (two green center points).
 
-![LnL-GNN](LnL-GNN.png?raw=true "Title")
+![LnL-GNN](LnLGNN.png?raw=true "Title")
 
 Flow chart of LnL-GNN. At the first stage, MLP, to compute SEs, and MI Estimator, E, are trained using the estimation loss L. At next stage, obtained SEs and trained E are used to define local and non-local neighborhood followed by performing the local and non-local aggregation to compute the final embeddings of nodes. And, it updates the parameters of aggregation modules by optimizing the classification cross-entropy loss. Here, M3S denotes Multi-stage Self-Supervised Sampling. Dashed Line(- - -): Pre-processed Input Propagation, Solid Line (—) : Weight Update.
 
