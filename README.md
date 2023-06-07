@@ -12,9 +12,9 @@ This is a pytorch implementation of our [paper](https://arxiv.org/pdf/2104.13014
 
 ## Citation
 
-Please cite our paper:
+If you find our paper or repo useful then please cite our paper:
 
-```
+```bibtex
 @article{roy2021node,
   title={Node Embedding using Mutual Information and Self-Supervision based Bi-level Aggregation},
   author={Roy, Kashob Kumar and Roy, Amit and Rahman, AKM and Amin, M Ashraful and Ali, Amin Ahsan},
