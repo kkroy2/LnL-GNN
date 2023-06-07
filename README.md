@@ -10,18 +10,6 @@
 
 This is a pytorch implementation of our [paper](https://arxiv.org/pdf/2104.13014.pdf) "Node Embedding using Mutual Information and Self-Supervision based Bi-level Aggregation" which has been accepted by IJCNN 2021.  Check the video presentation of our paper [here](https://youtu.be/dVAm6GgIMzQ).
 
-## Citation
-
-If you find our paper or repo useful then please cite our paper:
-
-```bibtex
-@article{roy2021node,
-  title={Node Embedding using Mutual Information and Self-Supervision based Bi-level Aggregation},
-  author={Roy, Kashob Kumar and Roy, Amit and Rahman, AKM and Amin, M Ashraful and Ali, Amin Ahsan},
-  journal={arXiv preprint arXiv:2104.13014},
-  year={2021}
-}
-```
 
 
 # Abstract
@@ -45,3 +33,16 @@ Flow chart of LnL-GNN: At the first stage, MLP, to compute SEs, and MI Estimator
 ![Baseline Comparison](comparison.png?raw=true "Title")
 
     Table : Comparison with Baselines: ’-’ denotes that results are not publicly available.
+
+## Cite
+
+If you find our paper or repo useful then please cite our paper:
+
+```bibtex
+@article{roy2021node,
+  title={Node Embedding using Mutual Information and Self-Supervision based Bi-level Aggregation},
+  author={Roy, Kashob Kumar and Roy, Amit and Rahman, AKM and Amin, M Ashraful and Ali, Amin Ahsan},
+  journal={arXiv preprint arXiv:2104.13014},
+  year={2021}
+}
+```
