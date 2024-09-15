@@ -46,3 +46,7 @@ If you find our paper or repo useful then please cite our paper:
   year={2021}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=kkroy2/LnL-GNN&type=Date)](https://star-history.com/#kkroy2/LnL-GNN&Date)
